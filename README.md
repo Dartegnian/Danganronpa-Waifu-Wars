@@ -1,6 +1,7 @@
 <img src="https://raw.githubusercontent.com/Dartegnian/Danganronpa-Waifu-Wars/master/src/assets/images/logos/waifuwarslogo.png" alt="Danganronpa Waifu Wars logo"/>
 
-# Danganronpa Waifu Wars
+Danganronpa Waifu Wars is a site that aims to offer an RPG-like Danganronpa experience for the web. You can choose and select waifus, form a party (a *harem*), and battle against other waifu parties/*harems*.
+
 This project was developed in my spare time to practice and test out my skills in Angular.
 
 ### Copyright disclaimer
