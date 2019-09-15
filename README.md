@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/Dartegnian/Danganronpa-Waifu-Wars/master/src/assets/images/backgrounds/logos/waifuwarslogo.png"/>
+<img src="https://raw.githubusercontent.com/Dartegnian/Danganronpa-Waifu-Wars/master/src/assets/images/logos/waifuwarslogo.png" alt="Danganronpa Waifu Wars logo"/>
 
 # Danganronpa Waifu Wars
 This project was developed in my spare time to practice and test out my skills in Angular.
