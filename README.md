@@ -7,11 +7,11 @@ This project has never been/will never be/is currently not affiliated with [**Sp
 This experimental website does not attempt, in any form, to sell nor monetize official Danganronpa artwork/collaterals/copyrighted material. As such, this project is for non-commercial and educational purposes. This project also does not attempt to overtake the world with *© Junko Enoshima-branded Despair™* nor hope of any kind.
 
 ## Default Angular README.md
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) V3.
 
 ### Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:11037/`. The app will automatically reload if you change any of the source files.
 
 ### Code scaffolding
 
