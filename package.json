@@ -6,12 +6,17 @@
 		"start": "printf 'Sayaka did nothing wrong.\n\n' && ng serve",
 		"build": "ng build",
 		"test": "ng test",
-		"lint": "ng lint",
-		"e2e": "ng e2e"
+		"lint": "ng lint && sass-lint -v",
+		"e2e": "ng e2e",
+		"chottomatte": "run-s sayaka did nothing wrong",
+		"sayaka": "lint-staged",
+		"did": "sass-lint-auto-fix",
+		"nothing": "npx pretty-quick",
+		"wrong": "printf '\n\nSayaka did nothing wrong!'"
 	},
 	"husky": {
 		"hooks": {
-			"pre-commit": "npx pretty-quick"
+			"pre-commit": "npm run chottomatte"
 		}
 	},
 	"private": true,
@@ -46,10 +51,19 @@
 		"karma-jasmine": "~2.0.1",
 		"karma-jasmine-html-reporter": "^1.4.0",
 		"lint-staged": "^9.2.5",
+		"npm-run-all": "^4.1.5",
 		"prettier": "^1.18.2",
+		"pretty-quick": "^1.11.1",
 		"protractor": "~5.4.0",
+		"sass-lint-auto-fix": "^0.17.0",
 		"ts-node": "~7.0.0",
 		"tslint": "~5.15.0",
 		"typescript": "~3.5.3"
+	},
+	"lint-staged": {
+		"*.{ts,js,css,json,md}": [
+			"prettier --write",
+			"git add"
+		]
 	}
 }

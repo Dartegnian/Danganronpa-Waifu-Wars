@@ -1,0 +1,58 @@
+{
+  "options": {
+    "merge-default-rules": false,
+    "formatter": "html",
+    "output-file": "sass-lint.html",
+    "max-warnings": 50
+  },
+  "files": {
+    "include": [
+			"project/src/**/*.s+(a|c)ss"
+		],
+    "ignore": [
+      "node_modules/**",
+			"dist/**"
+    ]
+  },
+  "rules": {
+		"no-ids": 2,
+		"mixins-before-declarations": [
+      2,
+      {
+        "exclude": [
+          "breakpoint",
+          "mq"
+        ]
+      }
+    ],
+		"indentation": [
+      2,
+      {
+        "size": 4
+      }
+    ],
+		"hex-notation": [
+      2,
+      {
+        "style": "uppercase"
+      }
+    ],
+		"quotes": 2,
+		"space-after-colon": 2,
+		"space-after-comma": 2,
+		"no-important": 1,
+		"nesting-depth": [
+			1,
+			{
+				"max-depth": 2
+			}
+		],
+		"property-sort-order": [
+			1,
+			{
+				"order": "smacss",
+				"ignore-custom-properties": true
+			}
+		]
+  }
+}
