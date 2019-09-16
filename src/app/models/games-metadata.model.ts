@@ -1,4 +1,4 @@
-import { ICharacter } from "@models/character.model"
+import { ICharacter } from "@models/character.model";
 
 export interface IGameInformation {
 	name: string;
@@ -18,7 +18,10 @@ export interface IGameInformation {
 export interface IKillingGameInformation {
 	name: "Killing School Life" | "Killing School Trip" | "Killing School Semester";
 	location: "Hope's Peak Academy" | "Jabberwock Island" | "Ultimate Academy for Gifted Juveniles";
-	game: "Danganronpa: Trigger Happy Havoc" | "Danganronpa 2: Goodbye Despair" | "Danganronpa V3: Killing Harmony";
+	game:
+		| "Danganronpa: Trigger Happy Havoc"
+		| "Danganronpa 2: Goodbye Despair"
+		| "Danganronpa V3: Killing Harmony";
 	host: "Monokuma";
 	sideHosts?: "Monomi" | "Monokubs";
 	participants: {
@@ -27,11 +30,11 @@ export interface IKillingGameInformation {
 		totalDeaths: number;
 		murderers: Array<string>;
 		deadParticipants: Array<string>;
-	}
+	};
 	murderers: {
 		executionMethod: string;
 		victims: Array<string>;
 		motives: string;
 		relevantChapter: number;
-	}
+	};
 }

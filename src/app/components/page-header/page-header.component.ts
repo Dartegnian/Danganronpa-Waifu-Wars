@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'PageHeader',
-  templateUrl: './page-header.component.html',
-  styleUrls: ['./page-header.component.scss']
+	selector: "page-header",
+	templateUrl: "./page-header.component.html",
+	styleUrls: ["./page-header.component.scss"],
 })
 export class PageHeaderComponent implements OnInit {
+	constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+	ngOnInit() {}
 }

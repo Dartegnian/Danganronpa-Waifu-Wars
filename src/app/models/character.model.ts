@@ -15,5 +15,5 @@ export interface ICharacter {
 		executionMethod?: string;
 		murderedBy?: string;
 		accomplice?: string;
-	}
+	};
 }

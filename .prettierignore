@@ -1,0 +1,7 @@
+dist
+src/**/*.sass
+src/**/*.scss
+projects/**/*.scss
+tslint.json
+package.json
+package-lock.json

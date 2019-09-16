@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'PageFooter',
-  templateUrl: './page-footer.component.html',
-  styleUrls: ['./page-footer.component.scss']
+	selector: "page-footer",
+	templateUrl: "./page-footer.component.html",
+	styleUrls: ["./page-footer.component.scss"],
 })
 export class PageFooterComponent implements OnInit {
+	constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+	ngOnInit() {}
 }
